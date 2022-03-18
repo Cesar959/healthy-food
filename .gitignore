@@ -1,0 +1,7 @@
+# Logs
+logs
+*.log
+
+# Pastas
+node_modules
+
