@@ -1,0 +1,199 @@
+header 
+{
+    width: 100%;
+    background: transparent;
+    min-height: 60px;
+    padding-top: 20px;
+}
+
+header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: red;
+    padding: 15px;
+}
+
+header h1 
+{
+    color: #badb56;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+header ul 
+{
+    display: flex;
+    align-items: center;
+}
+
+header ul li 
+{
+    margin: 0 15px;
+    list-style: none;
+}
+
+header ul li a 
+{
+    text-decoration: none;
+    color: #f3ffec;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.but 
+{
+    background: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+    color: transparent;
+}
+
+button  span 
+{
+    width: 40px;
+    height: 5px;
+    margin: 2px;
+    background: black;
+    display: inline-block;
+    padding: 0px;
+    color: black;
+    border-radius: 10px;
+}
+
+.toggle
+{
+    display: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle span
+{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: black;
+    transition: 0.5s ease;
+}
+
+.toggle span:nth-child(1) {
+    top: 10px;
+}
+
+.toggle span:nth-child(2) {
+    top: 18px;
+}
+
+.toggle span:nth-child(3) {
+    top: 26px;
+}
+
+
+.active.toggle span:nth-child(1) {
+    top: 18px;
+    transform: rotate(45deg);
+}
+
+.active.toggle span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.active.toggle span:nth-child(3) {
+    top: 18px;
+    transform: rotate(-45deg);
+}
+
+/* Media Querys */
+
+@media screen and (max-width: 992px) 
+{
+    header ul li 
+    {
+        margin: 0 6px;
+    }
+
+    header ul li a 
+    {
+        font-size: 16px;
+    }
+
+    header h1 
+    {
+        font-size: 28px;
+    }
+
+    .but 
+    {
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    nav 
+    {
+        position: absolute;
+        top: 90px;
+        display: none;
+        align-items: center;
+        background: #badb56;
+        width: 90%;
+        z-index: 10;
+        margin-right: -45%;
+        right: 50%;
+        border-radius: 10px;
+    }
+
+    nav.active 
+    {
+        display: flex;
+    }
+
+    .toggle
+    {
+        display: flex;
+    }
+
+    header ul 
+    {
+        flex-direction: column;
+        width: 100%;
+        min-height: 250px;
+    }
+
+    header ul li 
+    {
+        margin: 20px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    header ul li a 
+    {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    header h1 
+    {
+        font-size: 25px;
+    }
+}
