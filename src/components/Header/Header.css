@@ -4,6 +4,7 @@ header
     background: transparent;
     min-height: 60px;
     padding-top: 20px;
+    z-index: 1;
 }
 
 header .container
@@ -11,7 +12,7 @@ header .container
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: red;
+    background: transparent;
     padding: 15px;
 }
 
@@ -52,7 +53,7 @@ header ul li a
     background: white;
     padding: 20px 25px;
     border-radius: 10px;
-    color: transparent;
+    color: #badb56;
 }
 
 button  span 
@@ -135,7 +136,7 @@ button  span
 
     header h1 
     {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .but 
@@ -187,6 +188,12 @@ button  span
     header ul li a 
     {
         padding: 15px;
+    }
+
+    header
+    {
+        padding-top: 0;
+        background: #8fd163;
     }
 }
 

@@ -6,6 +6,11 @@
   position: relative;
 }
 
+body
+{
+  background: white;
+}
+
 .container 
 {
   width: 100%;
