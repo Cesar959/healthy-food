@@ -1,0 +1,137 @@
+.card-revenue
+{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 20px 15px 25px #ebeaef;
+}
+
+.card-revenue .content-revenue
+{
+    padding: 30px;
+    text-align: left;
+}
+
+.card-revenue h2 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 25px;
+    line-height: 40px;
+    color: #1d164c;
+}
+
+.card-revenue .but-revenue
+{
+    padding: 15px 25px;
+    background: #badb58;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* Media Querys */
+
+@media screen and (max-width: 1152px) 
+{
+    .card-revenue .content-revenue 
+    {
+        padding: 15px;
+    }
+
+    .card-revenue img
+    {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    .grid-revenue .card-revenue
+    {
+        min-width: 600px;
+    }
+} 
+
+@media screen and (max-width: 768px) 
+{
+    .grid-revenue .card-revenue h2 
+    {
+        font-size: 22px;
+    }
+
+    .card-revenue .but-revenue 
+    {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .grid-revenue .card-revenue
+    {
+        min-width: 550px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .grid-revenue .card-revenue
+    {
+        min-width: 95%;
+        margin: 0 20px;
+    }
+
+    .grid-revenue .card-revenue h2 
+    {
+        line-height: 30px;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 475px) 
+{
+    .grid-revenue .card-revenue h2 
+    {
+        font-size: 20px;
+    }
+
+    .card-revenue img 
+    {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 414px) 
+{
+    .grid-revenue .card-revenue
+    {
+        flex-direction: column;
+    }
+
+    .card-revenue img 
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .card-revenue .content-revenue
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .grid-revenue .card-revenue h2 
+    {
+        max-width: 100%;
+        text-align: center;
+    }
+}

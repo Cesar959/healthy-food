@@ -1,0 +1,127 @@
+#revenue
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    padding: 60px 0px;
+    background: #fafafa;
+}
+
+#revenue h1 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #1d164c;
+    text-align: center;
+}
+
+#revenue p 
+{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #9e9bb0;
+    font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.grid-revenue
+{
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: 590px 590px;
+    grid-template-rows: auto;
+    justify-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+/* Media Querys */
+
+@media screen and (max-width: 1280px) 
+{
+    .grid-revenue
+    {
+        margin: 30px 0px;
+        grid-template-columns: 540px 540px;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1152px) 
+{
+    .grid-revenue
+    {
+        grid-template-columns: 480px 480px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) 
+{
+    .grid-revenue
+    {
+        grid-template-columns: 440px 440px;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    .grid-revenue
+    {
+        grid-template-columns: 100%;
+    }
+} 
+@media screen and (max-width: 600px) 
+{
+    #revenue
+    {
+        padding-top: 30px;
+    }
+
+    #revenue p 
+    {
+        font-size: 18px;
+    }
+
+    #revenue h1 
+    {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 475px) 
+{
+    #revenue h1 
+    {
+        font-size: 28px;
+    }
+
+    #revenue p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 414px) 
+{
+    #revenue h1 
+    {
+        font-size: 24px;
+    }
+
+    #revenue p 
+    {
+        font-size: 16px;
+    }
+
+    .grid-revenue 
+    {
+        margin: 20px 10px;
+    }
+}
+
