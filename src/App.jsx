@@ -2,6 +2,7 @@
 import Header from "./components/Header/Header"
 import Home from "./components/Home/Home"
 import Revenue from "./components/Revenue/Revenue"
+import Service from "./components/Service/Service"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Header></Header>
       </Home>
       <Revenue></Revenue>
+      <Service></Service>
     </>
   )
 }
