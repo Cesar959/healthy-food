@@ -1,0 +1,194 @@
+#join 
+{
+    width: 100%;
+    background: white;
+    position: relative;
+    overflow: hidden;
+}
+
+#join .container
+{
+    display: flex;
+}
+
+#join .cell-join 
+{
+    width: 50%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+#join .cell-join form
+{
+    padding: 15px;
+}
+
+#join h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #2c3462;
+    line-height: 50px;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+#join input
+{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #2c3462;
+    padding: 15px;
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid  #777777;
+    outline: none;
+}
+
+#join button
+{
+    padding: 15px 35px;
+    background: #badb58;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0px 12px 15px #e0f0b2;
+}
+
+#join .ImgJoin
+{
+    width: 800px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#join #illustration-little
+{
+    display: none;
+}
+
+/* Media Querys */
+
+@media screen and (max-width: 1280px) 
+{
+    #join #illustration-little
+    {
+        display: block;
+    }
+
+    #join #illustration-great
+    {
+        display: none;
+    }
+
+    #join .ImgJoin 
+    {
+        width: 100%;
+        position: sticky;
+    }
+
+    #join .cell-join 
+    {
+        min-height: auto;
+    }
+}
+
+@media screen and (max-width: 1152px) 
+{
+    #join h1 
+    {
+        font-size: 35px;
+        line-height: 42px;
+        max-width: 440px;
+        margin-bottom: 20px;
+    }
+
+    #join input 
+    {
+        padding: 15px;
+        width: 350px;
+    }
+
+    #join button 
+    {
+        padding: 15px 25px;
+        margin-left: 10px;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 992px) 
+{
+    #join h1 
+    {
+        font-size: 28px;
+        line-height: 35px;
+        max-width: 350px;
+    }
+
+    #join input 
+    {
+        padding: 15px;
+        width: 270px;
+        font-size: 16px;
+    }
+
+    #join button 
+    {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    #join .container 
+    {
+        flex-direction: column-reverse;
+    }
+
+    #join .cell-join 
+    {
+        width: 100%;
+        min-height: 400px;
+        justify-content: center;
+    }
+
+    #join .cell-join form 
+    {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #join h1 
+    {
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #join input 
+    {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    #join .cell-join 
+    {
+        min-height: 300px;
+    }
+}

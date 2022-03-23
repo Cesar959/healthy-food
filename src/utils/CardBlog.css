@@ -62,11 +62,6 @@
         width: 330px;
     }
 
-    .card-blog .content-blog
-    {
-        min-height: 180px;
-    }
-
     .card-blog .content-blog h2 
     {
         font-size: 25px;
@@ -132,5 +127,10 @@
         font-size: 20px;
         max-width: 100%;
         line-height: 25px;
+    }
+
+    .card-blog .content-blog
+    {
+        min-height: 180px;
     }
 }

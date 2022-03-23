@@ -21,6 +21,7 @@ function Blog(props) {
             <div className="container">
                 <h1>Read Our Blog</h1>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
                 <div className="postagens-blog" ref={carrosel}>
                     <CardBlog img="bloco_image_1" title="Quick-start guide to nuts and seeds" avatar="avatar-1.png" author="Kevin Ibrahim"></CardBlog>
                     <CardBlog img="bloco_image_2" title="Nutrition: Tips for Improving Your Health" avatar="avatar-2.png" author="Mike Jackson"></CardBlog>
@@ -31,7 +32,6 @@ function Blog(props) {
                 </div>
                 <button className="arrow-carrosel" id="next" onClick={()=>{next()}}><img src="../../src/img/seta.png" alt="Next" /></button>
                 <button className="arrow-carrosel " id="back" onClick={()=>{back()}}><img src="../../src/img/seta.png" alt="Next" /></button>
-            </div>
             <div className="effect"></div>
         </section>
     )

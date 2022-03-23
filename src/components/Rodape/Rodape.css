@@ -1,0 +1,85 @@
+footer
+{
+    width: 100%;
+    padding: 30px;
+}
+
+footer .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h2
+{    
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c3462;
+}
+
+
+footer a
+{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    color: #9e9ca9;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer .term
+{
+    display: flex;
+    gap: 30px;
+}
+
+
+/* Media Querys */
+
+@media screen and (max-width: 1024px) 
+{
+    footer h2 
+    {
+        font-size: 17px;
+    }
+
+    footer a
+    {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    footer .container
+    {
+       flex-direction: column;
+       gap: 20px;
+    }
+
+    footer .term
+    {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    footer h2 
+    {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    footer a
+    {
+        font-size: 16px;
+        text-align: center;
+    }
+}
