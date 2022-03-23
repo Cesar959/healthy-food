@@ -1,0 +1,136 @@
+.card-blog
+{
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow:  0px 20px 30px #ecebf0;
+    flex: none;
+}
+
+.card-blog img 
+{
+    width: 100%;
+}
+
+.card-blog .content-blog
+{
+    padding: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-blog .content-blog h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    color: #1d164c;
+    max-width: 300px;
+    line-height: 40px;
+}
+
+.card-blog .content-blog .content-author
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card-blog .content-blog .content-author img
+{
+    width: 50px;
+}
+
+.card-blog .content-blog .content-author h3
+{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #9b98ab;
+}
+
+/* Media Querys */
+
+@media screen and (max-width: 1152px) 
+{
+    .card-blog 
+    {
+        width: 330px;
+    }
+
+    .card-blog .content-blog
+    {
+        min-height: 180px;
+    }
+
+    .card-blog .content-blog h2 
+    {
+        font-size: 25px;
+        max-width: 250px;
+        line-height: 32px;
+    }
+
+    #blog #back 
+    {
+        left: 10%;
+    }
+
+    .card-blog .content-blog .content-author h3 
+    {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 992px) 
+{
+    .card-blog 
+    {
+        width: 280px;
+    }
+
+    .card-blog .content-blog h2 
+    {
+        font-size: 22px;
+        max-width: 220px;
+        line-height: 30px;
+    }
+
+    .card-blog .content-blog .content-author img 
+    {
+        width: 40px;
+    }
+
+    #blog .effect 
+    {
+        width: 140px;
+    }
+
+    #blog #back 
+    {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    .card-blog 
+    {
+        width: 250px;
+    }
+
+    #blog #back 
+    {
+        left: 2%;
+    }
+
+    .card-blog .content-blog h2 
+    {
+        font-size: 20px;
+        max-width: 100%;
+        line-height: 25px;
+    }
+}

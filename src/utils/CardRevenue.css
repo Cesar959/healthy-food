@@ -70,13 +70,13 @@
         font-size: 22px;
     }
 
-    .card-revenue .but-revenue 
+     .card-revenue .but-revenue 
     {
         padding: 15px 20px;
         font-size: 16px;
     }
 
-    .grid-revenue .card-revenue
+     .grid-revenue .card-revenue
     {
         min-width: 550px;
     }

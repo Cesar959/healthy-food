@@ -1,0 +1,146 @@
+#blog 
+{
+    margin-top: 50px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#blog h1 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #1d164c;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+#blog p 
+{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    color: #9e9ca9;
+    font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+#blog .postagens-blog
+{
+    width: 100%;
+    position: absolute;
+    right: -5%;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+#blog .effect
+{
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    right: -80px;
+    top: 150px;
+    background: #ffffff;
+    filter: blur( 100px );
+    z-index: 2;
+}
+
+#blog .arrow-carrosel 
+{
+    width: 40px;
+    height: 40px;
+    background: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    z-index: 5;
+}
+
+#blog .arrow-carrosel  img 
+{
+    width: 30px;
+}
+
+#blog #back
+{
+    left: 20%;
+}
+
+#blog #back img
+{
+    transform: rotate(-180deg);
+}
+
+
+/* Media Querys */
+@media screen and (max-width: 1280px) 
+{
+    #blog .postagens-blog
+    {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 1152px) 
+{
+    #blog h1 
+    {
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #blog p 
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    #blog h1 
+    {
+        font-size: 28px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    #blog p 
+    {
+        font-size: 17px;
+        line-height: 20px;
+        max-width: 500px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    #blog h1 
+    {
+        font-size: 24px;
+    }
+
+    #blog p 
+    {
+        font-size: 16px;
+        max-width: 100%;
+    }
+}
