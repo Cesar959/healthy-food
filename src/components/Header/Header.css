@@ -89,7 +89,7 @@ button  span
     display: block;
     width: 40px;
     height: 5px;
-    background: black;
+    background: #fff;
     transition: 0.5s ease;
 }
 
@@ -147,6 +147,11 @@ button  span
 
 @media screen and (max-width: 768px) 
 {
+    header h1 
+    {
+        color: #fff;
+    }
+
     nav 
     {
         position: absolute;

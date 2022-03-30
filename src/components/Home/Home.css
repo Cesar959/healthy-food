@@ -114,7 +114,7 @@
 
     #home .cell-quite input 
     {
-        width: 260px;
+        width: 250px;
         font-size: 16px;
     }
 
@@ -146,7 +146,7 @@
 
     #home .cell-quite input 
     {
-        width: 200px;
+        width: 180px;
         padding: 15px;
     }
 
@@ -159,7 +159,7 @@
 
     #home #illustration-home 
     {
-        width: 585px;
+        width: 570px;
     }
 
     #home .cell-quite .cell-field 
@@ -298,5 +298,13 @@
     #home .cell-quite 
     {
         min-height: 270px;
+    }
+}
+
+@media screen and (max-width: 280px) 
+{
+    #home .cell-quite 
+    {
+        min-height: 240px;
     }
 }

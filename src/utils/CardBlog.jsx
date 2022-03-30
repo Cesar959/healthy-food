@@ -3,7 +3,7 @@ import "./CardBlog.css"
 
 function CardBlog(props) {
 
-    let path = `../src/img/${props.img}.svg`
+    let path = `../src/img/${props.img}`
     let avatar = `../src/img/${props.avatar}`
     
     return (
