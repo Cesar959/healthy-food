@@ -7,7 +7,7 @@
 
 ## Descrição
 
-Criação de uma Landing Page atrativa para os usuários, Além de um menu hambúrguer para a versão mobile e carroselde imagens para exibição das ultimas postagens no blog estático. A mesma foi desenvolvida baseado no layout que foi disponibilizado por uma empresa com objetivo de teste pratico de habilidades para uma vaga de desenvolvedor front-end. 
+Criação de uma Landing Page atrativa para os usuários, Além de um menu hambúrguer para a versão mobile e carrosel de imagens para exibição das ultimas postagens no blog estático. A mesma foi desenvolvida baseado no layout que foi disponibilizado por uma empresa com objetivo de teste pratico de habilidades para uma vaga de desenvolvedor front-end. 
 
 ## Desafio proposto
 
@@ -28,7 +28,7 @@ Por meio dele sera baixado todas as depedencias do projeto, depois de instalado 
 1) Faça o clone do projeto
 
 ```bash
-    git@github.com:Cesar959/healthy-food.git
+    git clone git@github.com:Cesar959/healthy-food.git
 ```
 
 2) para baixa todas as dependencias do projeto
