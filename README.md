@@ -19,6 +19,32 @@ os usuários devem ser capazes de:
 
 * [React](https://www.w3schools.com/REACT/DEFAULT.ASP) - O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.
 
+## Instalação Local
+
+Para executar esse projeto você precisara do [Node](https://nodejs.org/en/).
+
+Por meio dele sera baixado todas as depedencias do projeto, depois de instalado execute os comandos abaixo na linha do terminal.
+
+1) Faça o clone do projeto
+
+```bash
+    git@github.com:Cesar959/healthy-food.git
+```
+
+2) para baixa todas as dependencias do projeto
+
+```bash  
+npm install
+```
+
+3) Execute o comando abaixo no terminal
+
+```bash 
+npm run dev
+```
+
+5) Acesse "http://localhost:3000/
+
 ## Status do Projeto
 
 **Concluido**: O projeto esta terminado, não havera futuras alterações de funcionalidade.
@@ -32,7 +58,7 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo  [LICENSE.
 
 
 ## Links
-* [Demo](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN) - link do desafio do Frontend Mentor.
+*  Não foi possivel disponibilizar um clone devidoa um prolema incomum no servidor
 
 
 

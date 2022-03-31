@@ -16,7 +16,7 @@ function Home(props) {
                         <h1>Ready for Trying a new recipe?</h1>
                         <div className="cell-field">
                             <input type="search" id="search" placeholder="Search healthy recipes"/>
-                            <button><img src={Lupa} alt="" /></button>
+                            <button><img src={Lupa} alt="Lupa" /></button>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ function Home(props) {
                     {/* Coluna falsa */}
                 </div>
             </div>
-            <img id="illustration-home" src={Illustration} alt="" />
+            <img id="illustration-home" src={Illustration} alt="Ilustração" />
         </section>
     )
 }
