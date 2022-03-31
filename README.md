@@ -43,7 +43,7 @@ npm install
 npm run dev
 ```
 
-5) Acesse "http://localhost:3000/
+4) Acesse "http://localhost:3000/
 
 ## Status do Projeto
 
