@@ -30,8 +30,8 @@ function Blog(props) {
                     <CardBlog img="bloco_image_primeiro.svg" title="Quick-start guide to nuts and seeds" avatar="avatar-5.png" author="Kevin Ibrahim"></CardBlog>
                     <CardBlog img="bloco_image_segundo.svg" title="Nutrition: Tips for Improving Your Health" avatar="avatar-6.png" author="Kevin Ibrahim"></CardBlog>
                 </div>
-                <button className="arrow-carrosel" id="next" onClick={()=>{next()}}><img src="../../src/img/seta.png" alt="Next" /></button>
-                <button className="arrow-carrosel " id="back" onClick={()=>{back()}}><img src="../../src/img/seta.png" alt="Next" /></button>
+                <button className="arrow-carrosel" id="next" onClick={()=>{next()}}><img src="seta.png" alt="Next" /></button>
+                <button className="arrow-carrosel " id="back" onClick={()=>{back()}}><img src="seta.png" alt="Next" /></button>
             <div className="effect"></div>
         </section>
     )
