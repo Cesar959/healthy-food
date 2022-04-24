@@ -9,7 +9,7 @@ function CardBlog(props) {
            <div className="content-blog">
               <h2>{props.title}</h2>
               <div className="content-author">
-                <img src={props.avatar} alt={props.title-avatar}/>
+                <img src={props.avatar} alt={props.author}/>
                 <h3>{props.author}</h3>
               </div>
            </div>
