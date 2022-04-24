@@ -3,7 +3,8 @@ import "./CardRevenue.css"
 
 function CardRevenue(props) {
 
-    let path = `dist/assets/${props.img}`
+    let path = `public/${props.img}`
+    
     
     return (
        <div className="card-revenue">
